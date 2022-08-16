@@ -1,0 +1,82 @@
+
+1-Info sur portes , entrees sorties:
+
+	 Il existe : 6 Entrées.
+
+	 Il existe : 3 Sorties.
+
+	 Il existe : 6 Portes Logiques.
+
+
+2-info sur Outname et m_NodeName
+ 
+-m_OutsName[i] :
+
+ == == == == == == a b c S1 S2 S3 == == == 
+
+ 
+-m_NodeName[i] 
+
+ E1 E2 E3 E4 E5 E6 P1 P2 P3 P4 P5 P6 S1 S2 S3 
+
+
+
+3-info la matrice qui contient le fichier des donnees
+
+-m_LL :
+
+	and	P1	a	E1	E2
+	or	P2	b	E3	E4
+	and	P3	c	b	E5
+	or	P4	S1	a	c
+	not	P5	S2	c	;
+	or	P6	S3	c	E6
+
+4-Affichage de MAdj
+
+-MAdj[i][j] :
+
+    E1 E2 E3 E4 E5 E6 P1 P2 P3 P4 P5 P6 S1 S2 S3 
+E1   0  0  0  0  0  0  1  0  0  0  0  0  0  0  0
+E2   0  0  0  0  0  0  2  0  0  0  0  0  0  0  0
+E3   0  0  0  0  0  0  0  1  0  0  0  0  0  0  0
+E4   0  0  0  0  0  0  0  2  0  0  0  0  0  0  0
+E5   0  0  0  0  0  0  0  0  2  0  0  0  0  0  0
+E6   0  0  0  0  0  0  0  0  0  0  0  2  0  0  0
+P1   0  0  0  0  0  0  0  0  0  1  0  0  0  0  0
+P2   0  0  0  0  0  0  0  0  1  0  0  0  0  0  0
+P3   0  0  0  0  0  0  0  0  0  2  1  1  0  0  0
+P4   0  0  0  0  0  0  0  0  0  0  0  0  1  0  0
+P5   0  0  0  0  0  0  0  0  0  0  0  0  0  1  0
+P6   0  0  0  0  0  0  0  0  0  0  0  0  0  0  1
+S1   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+S2   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+S3   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+
+
+
+
+5-Les vecteurs des valeurs d'enrees
+
+-Le nombre des Vecteurs d'entrees est : 4
+	1	1	1	1	1	1
+	0	0	0	1	0	0
+	0	0	0	0	0	0
+	1	1	0	0	0	1
+
+
+
+6-Valeurs des sorties Logiques Calculée
+
+>>----valeur des sorties pour le Vecteur n°1
+[ s1= 1 ][ s2= 1 ][ s3= 1 ]
+ 
+>>----valeur des sorties pour le Vecteur n°2
+[ s1= 1 ][ s2= 1 ][ s3= 1 ]
+ 
+>>----valeur des sorties pour le Vecteur n°3
+[ s1= 1 ][ s2= 1 ][ s3= 1 ]
+ 
+>>----valeur des sorties pour le Vecteur n°4
+[ s1= 1 ][ s2= 1 ][ s3= 1 ]
+ 
